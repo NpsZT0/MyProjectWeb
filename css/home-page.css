@@ -132,6 +132,8 @@
 .content .header i{
     color:rgb(2, 147, 33);
 }
+
+/* double quot */
 .content .header .icon-close{
     rotate: 180deg;
 }
