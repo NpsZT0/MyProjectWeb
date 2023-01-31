@@ -40,7 +40,7 @@
     background-image: url('https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg');
     background-size: cover;
     background-position: center;
-    filter:brightness(20%);
+    filter:brightness(35%);
     z-index: -1;
 }
 
@@ -164,7 +164,7 @@
     width: 60%;
     height: 13%;
     padding-top: 0%;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .bg1{
     background-image: url('https://www.muscle.in.th/file/img/article/food-guide-pyramid.jpg');
@@ -178,7 +178,7 @@
     width: 22%;
     height: 13%;
     padding-top: 0%;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .bg2{
     background-image: url('https://mpics.mgronline.com/pics/Images/561000010883002.JPEG');
@@ -200,7 +200,7 @@
     width: 48%;
     height: 13%;
     padding-top: 0%;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .bg3{
     background-image: url('https://www.nutraingredients-usa.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/nutraingredients-usa.com/article/2019/12/23/a-leap-forward-ana-proposes-definition-for-personalized-nutrition/10500290-1-eng-GB/A-leap-forward-ANA-proposes-definition-for-Personalized-Nutrition.jpg');
@@ -223,7 +223,7 @@
     width: 30%;
     height: 13%;
     padding-top: 0%;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 .bg4{
     background-image: url('https://media.istockphoto.com/id/1372754590/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%84%E0%B8%B4%E0%B8%94%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%88%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E-%E0%B9%80%E0%B8%A7%E0%B8%81%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%A2-%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%9F%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B9%82%E0%B8%A0%E0%B8%8A%E0%B8%99%E0%B8%B2%E0%B8%81.jpg?s=1024x1024&w=is&k=20&c=eXfmY-kxGBfFeJh-T208CPp0_Zjn5X7xYuMVpsgLHaw=');

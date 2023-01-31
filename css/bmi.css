@@ -3,11 +3,34 @@
     color: rgb(70, 96, 175);
 }
 
-/* frame of bmi calculator */
-.input-container{
+/* frame master of bmi calculator */
+.i-master-container{
     margin-top: 7px;
     width: 30rem;
     height: 25rem;
-    background-color: rgba(0, 111, 6, 0.835);
-    border: 1px solid rgb(5, 60, 11);
+    background-image: conic-gradient(rgb(29, 57, 29), rgb(29, 57, 29),rgb(29, 57, 29),rgb(78, 0, 0), rgb(78, 0, 0),rgb(29, 57, 29), rgb(121, 60, 10), rgb(117, 96, 3), rgb(106, 51, 21), rgb(29, 57, 29), rgb(29, 57, 29));
+    border-radius: 3%;
+}
+
+/* frame of input box */
+.i-container{
+    margin: auto;
+    margin-top: 2.5rem;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 3%;
+    background-color: rgb(94, 94, 94);
+    filter: drop-shadow(0 0 0.2rem rgb(38, 37, 37));
+    padding: 20px;
+}
+
+/*  */
+.i-container p{
+    color: aliceblue;
+}
+
+/*  */
+.i-container .i-age{
+    border:0.1px solid rgb(255, 255, 255);
+    border-radius: 5px;
 }
