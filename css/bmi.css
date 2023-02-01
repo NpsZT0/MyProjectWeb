@@ -1,5 +1,5 @@
 /* computer icon */
-.content .header h1 i{
+.content .header h1 .computer{
     color: rgb(70, 96, 175);
 }
 
@@ -21,16 +21,54 @@
     border-radius: 3%;
     background-color: rgb(94, 94, 94);
     filter: drop-shadow(0 0 0.2rem rgb(38, 37, 37));
-    padding: 20px;
+    padding: 30px;
 }
 
-/*  */
-.i-container p{
+/* cal text */
+.caltext{
+    text-align: center;
+    margin-bottom: 30px;
     color: aliceblue;
 }
 
-/*  */
-.i-container .i-age{
-    border:0.1px solid rgb(255, 255, 255);
+/* all input label */
+.i-container .label-input{
+    color: rgb(172, 174, 175);
+}
+
+/* input box of age */
+.i-container .input-box{
+    border:0.1px solid rgb(198, 198, 198);
     border-radius: 5px;
+    margin-bottom: 20px;
+    color: rgb(54, 53, 53);
+    background-color: rgb(198, 198, 198);
+}
+
+/* submit BMI */
+.submit{
+    width: 50px;
+    margin-bottom: 20px;
+    color: rgb(70, 70, 70);
+    filter: drop-shadow(0 0 0.9px rgb(33, 33, 33));
+}
+.submit:hover{
+
+    filter: drop-shadow(0 0 2px rgb(41, 145, 77));
+}
+.submit:active{
+
+    filter: drop-shadow(0 0 2px rgb(201, 192, 21));
+}
+
+/* output BMI */
+.outputBMI{
+    margin-top: 10px;
+    width: 300px;
+    height: 60px;
+    color: rgb(64, 63, 61);
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 80px
 }

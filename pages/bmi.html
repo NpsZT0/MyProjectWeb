@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/home-page.css" />
     <link rel="stylesheet" href="/css/bmi.css" />
+    <script src="../js/app.js"></script>
 </head>
 
 <body>
@@ -38,23 +39,54 @@
 
             <div class="header">
                 <h1>
-                    <i class="fa-solid fa-computer"></i>
+                    <i class="fa-solid fa-computer computer"></i>
                     BMI
                 </h1>
-                <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.</p>
+                <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight
+                    status while taking age into consideration. Use the "Metric Units" tab for the International System
+                    of Units or the "Other Units" tab to convert units into either US or metric units. Note that the
+                    calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in
+                    detail.
+                </p>
+                <br>
+                <p>ref : calculator.net</p>
             </div>
 
             <div class="i-master-container">
                 <div class="i-container">
-                    <p>Some Fancy Label</p>
-                    <input class="i-age" type="text" placeholder=" " />
+                    <h2 class="caltext">Calculator</h2>
+                    <!-- <label for="age" class="label-input">Age :</label>
+                    <input id="age" class="input-box" type="text" maxlength="3"/>
+                    <br>
+
+                    <label for="gender" class="label-input">Gender :</label>
+                    <select id="gender" class="input-box">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <br> -->
+
+                    <label for="height" class="label-input">Height :</label>
+                    <input id="height" class="input-box" type="text" maxlength="3" />
+                    <label for="height" class="label-input">cm.</label>
+                    <br>
+                    
+                    <label class="label-input">Weight :</label>
+                    <input id="weight" class="input-box" type="text" maxlength="3"/>
+                    <label for="height" class="label-input">kg.</label>
+                    <br>
+
+                    <button class="submit" onclick="bmi('height', 'weight')">Submit</button>
+
+                    <div id="output" class="outputBMI"></div>
+
                 </div>
             </div>
 
         </div>
 
         <div class="container-cr">
-            
+
             <div class="creadit">
                 <div class="cr1">
                     <i class="fa-solid fa-carrot icon-cr">UrHealth</i>
@@ -65,7 +97,7 @@
                 <p class="cr5"><i class="fa-solid fa-phone"></i>095-575-XXXX</p>
                 <p class="cr6"><i class="fa-brands fa-instagram"></i>ztanx</p>
             </div>
-            
+
         </div>
 
     </div>

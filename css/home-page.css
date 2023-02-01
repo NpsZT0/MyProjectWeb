@@ -129,12 +129,13 @@
 .content .header{
     color: aliceblue;
 }
-.content .header i{
+.content .header .qoute{
     color:rgb(2, 147, 33);
 }
 
-/* double quot */
+/* double qoute */
 .content .header .icon-close{
+    color:rgb(2, 147, 33);
     rotate: 180deg;
 }
 
