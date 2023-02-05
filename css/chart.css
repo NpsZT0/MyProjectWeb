@@ -1,0 +1,26 @@
+/* frame master of bmi calculator */
+.chart-container{
+    margin-top: 84px;
+    margin-left: 729.5px;
+    width: 480px;
+    height: 400px;
+    background-image: conic-gradient(rgb(29, 57, 29), rgb(29, 57, 29),rgb(29, 57, 29),rgb(78, 0, 0), rgb(78, 0, 0),rgb(29, 57, 29), rgb(121, 60, 10), rgb(117, 96, 3), rgb(106, 51, 21), rgb(29, 57, 29), rgb(29, 57, 29));
+    border-radius: 3%;
+    
+    padding: 40px;
+}
+
+/* chart styles */
+.frame-chart{
+    width: 400px;
+    height: 320px;
+    background-color: #505050;
+    margin-top: 100;
+    border-radius: 3%;
+    
+    padding: 20px;
+}
+
+.frame-chart .chart{
+    margin-left: 20px;
+}

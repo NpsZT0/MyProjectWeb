@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UrHealth | BMI</title>
+    <title>UrHealth | Chart</title>
     <link rel="shortcut icon" type="x-icon" href="/svg/carrot-solid (3).svg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/home-page.css" />
     <link rel="stylesheet" href="/css/bmi.css" />
+    <link rel="stylesheet" href="/css/chart.css" />
 </head>
 
 <body>
@@ -41,19 +42,57 @@
                     <i class="fa-solid fa-chart-pie"></i>
                     Chart
                 </h1>
-                <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.</p>
+                <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight
+                    status while taking age into consideration. Use the "Metric Units" tab for the International System
+                    of Units or the "Other Units" tab to convert units into either US or metric units. Note that the
+                    calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in
+                    detail.</p>
             </div>
-
-
-            
-
-
-
 
         </div>
 
+        <div class="chart-container">
+            <div class="frame-chart">
+                <div id="piechart" class="chart"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <script type="text/javascript">
+            // Load google charts
+            google.charts.load('current', { 'packages': ['corechart'] });
+            google.charts.setOnLoadCallback(drawChart);
+
+            // Draw the chart and set the chart values
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Task', 'Meal per Day'],
+                    ['Proteins', 3],
+                    ['Fats', 1],
+                    ['Carbohydrates', 4],
+                    ['Vitamins', 1.5],
+                    ['Minerals', 0.5]
+                ]);
+
+                // Optional; add a title and set the width and height of the chart
+                var options = { 
+                    'width': 360, 
+                    'height': 280,   
+                    'colors': ['#006400', '#1E821E', '#3CA03C', '#4BAF4B', '#6DD66D'],
+                    'backgroundColor': '#505050',
+                    'border-radius': 10,
+                    'is3D': true
+                };
+
+                // Display the chart inside the <div> element with id="piechart"
+                var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                chart.draw(data, options);
+            }
+        </script>
+
         <div class="container-cr">
-            
+
             <div class="creadit">
                 <div class="cr1">
                     <i class="fa-solid fa-carrot icon-cr">UrHealth</i>
@@ -64,7 +103,7 @@
                 <p class="cr5"><i class="fa-solid fa-phone"></i>095-575-XXXX</p>
                 <p class="cr6"><i class="fa-brands fa-instagram"></i>ztanx</p>
             </div>
-            
+
         </div>
 
     </div>

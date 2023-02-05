@@ -4,7 +4,7 @@
 // navvar
 
 
-function bmi(height, weight){
+function bmi(height, weight, output){
     const inputHeight = parseInt(document.getElementById(height).value) //ตัวแปรรับค่าจาก input bmi.html ผ่าน id
     const inputWeight = parseInt(document.getElementById(weight).value)
     const bmiValue = inputWeight/( Math.pow((inputHeight/100) , 2) )
@@ -22,6 +22,10 @@ function bmi(height, weight){
         console.log(bmiValue)
         criterion = "Overweight!"
     }
+    else{
+        console.log(bmiValue)
+        criterion = "Obesity!"
+    }
  
-    document.getElementById("output").innerHTML = "Healthy BMI : " + bmiValue.toFixed(2) + "<br>You are " + criterion
+    document.getElementById(output).innerHTML = "Healthy BMI : " + bmiValue.toFixed(2) + "<br>You are " + criterion
 }

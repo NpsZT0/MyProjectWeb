@@ -1,4 +1,57 @@
-/* computer icon */
-.content .header h1 .rice{
+/* rice icon */
+.content .header-nutrition .rice{
     color: rgb(186, 156, 32);
+}
+
+.content .header-nutrition{
+
+    width: 50%;
+    position: relative;
+    color: aliceblue;
+}
+
+.content .header-nutrition h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+/* paragraph */
+.content .header-nutrition p{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    opacity: 0.6;
+}
+
+/* grid both content and ref */
+.content .grid-container-nutrition{
+    display: grid;
+    grid-template-rows: auto auto ;
+    color: aliceblue;
+    margin-top: 1%;
+
+}
+
+.content .grid-container-nutrition .grid-content-nutrition{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    margin-left: 10%;
+}
+
+.content .grid-container-nutrition .grid-content-nutrition .box{
+    position: relative;
+    width: 300px;
+
+}
+
+.content .grid-container-nutrition .grid-content-nutrition .box p{
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.ref-nutrition{
+    text-align: center;
+    margin-top: 600px;
+    color: aliceblue;
+    opacity: 0.6;
 }
