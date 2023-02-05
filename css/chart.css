@@ -1,3 +1,8 @@
+/* chart icon */
+.content .header .chart{
+    color: rgb(9, 255, 124);
+}
+
 /* frame master of bmi calculator */
 .chart-container{
     margin-top: 84px;

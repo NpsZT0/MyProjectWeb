@@ -1,0 +1,56 @@
+/* like icon */
+.content .header-suggest .like{
+    color: rgb(193, 107, 3);
+}
+
+.content .header-suggest{
+
+    width: 35%;
+    position: relative;
+    color: aliceblue;
+}
+
+.content .header-suggest h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+/* paragraph */
+.content .header-suggest p{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    opacity: 0.6;
+}
+
+/* grid both content and ref */
+.content .grid-container-suggest{
+    display: grid;
+    grid-template-rows: auto auto;
+    color: aliceblue;
+    margin-top: 1%;
+}
+
+.content .grid-container-suggest .grid-content-suggest{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    margin-left: 10%;
+}
+
+.content .grid-container-suggest .grid-content-suggest .box{
+    position: relative;
+    width: 200px;
+
+}
+
+.content .grid-container-suggest .grid-content-suggest .box p{
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.ref-suggest{
+    text-align: center;
+    margin-top: 600px;
+    color: aliceblue;
+    opacity: 0.6;
+}
